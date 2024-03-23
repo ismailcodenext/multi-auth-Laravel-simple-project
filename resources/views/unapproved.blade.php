@@ -5,8 +5,10 @@
         </h2>
     </x-slot>
 
-    <div class="py-12">
-        <p class="text-center">Your Registration is pending approval from an Admin</p><br>
-        <p class="text-center">Please be patient. We will notify you.</p>
+    <div class="row justify-content-center d-flex">
+        <div class="card mt-2 py-12 col-6">
+            <p class="text-center">Your Registration is pending approval from an Admin</p><br>
+            <p class="text-center">Please be patient. We will notify you.</p>
+        </div>
     </div>
 </x-app-layout>
